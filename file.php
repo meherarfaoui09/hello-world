@@ -20,6 +20,7 @@ $noti = $_POST['sites[]'];
                  $sql5 = "INSERT *INTO notification  WHERE $noti = 'asite',  ORDER BY ddate DESC ";
                  alert    (log("admin vous a donné access au site"+ '$asite'));
                 $sql6 = " UPDATE notification set notif = 1 WHERE  idnotif = $id_notif " ;
+           ;zeyda
       
          
 
